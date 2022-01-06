@@ -3,7 +3,7 @@ task:
   name: Test IP
   timeout_in: 120m
   environment:
-    TOKEN: among us
+    TOKEN: ENCRYPTED[a22574d41e0f4f378ad0630f90cd827036ac5a89ab573e3367fbd492c23a2a981a4c289c99bb4ccc5f6c654876883530]
   container:
     cpu: 8
     memory: 32G
